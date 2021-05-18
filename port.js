@@ -1,7 +1,7 @@
 window.onload = function () {
     $(".load").fadeOut();
 
-  $(".menu").css("display", "block");
+  $(".everything").css("display", "block");
   $("#but0").hover(
     function () {
       $(".picture").prepend('<img class="pic1" src="groove.png">');
