@@ -10,6 +10,16 @@ body {
   margin: 0;
 }
 
+.load {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "EB Garamond", serif;
+  font-size: 3vw;
+  pointer-events: none;
+}
+
 button {
   position: relative;
   border: none;
@@ -29,6 +39,7 @@ button {
   width: 100%;
   margin: 2vw;
   margin-top: 2vw;
+  display:none;
 }
 h {
   position: relative;
