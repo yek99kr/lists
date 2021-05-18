@@ -1,5 +1,5 @@
 window.onload = function () {
-    $(".load").fadeOut("slow");
+    $(".load").fadeOut();
 
   $(".menu").css("display", "block");
   $("#but0").hover(
