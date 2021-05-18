@@ -160,7 +160,7 @@ window.onload = function () {
   );
   $("#but15").hover(
     function () {
-      $(".picture").prepend('<img class="pic6" src="ani8.jpg">');
+      $(".picture").prepend('<img class="pic6" src="online.png">');
     },
     function () {
       $(".picture").find(".pic6").last().remove();
