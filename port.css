@@ -34,12 +34,15 @@ button {
   display: inline-block;
   bottom: 0;
 }
+.everything{
+  display:none;
+}
+
 .menu {
   position: absolute;
   width: 100%;
   margin: 2vw;
   margin-top: 2vw;
-  display:none;
 }
 h {
   position: relative;
