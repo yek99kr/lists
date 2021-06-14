@@ -4,7 +4,7 @@ window.onload = function () {
   $(".everything").css("display", "block");
   $("#but0").hover(
     function () {
-      $(".picture").prepend('<img class="pic1" src="groove.png">');
+      $(".picture").prepend('<img class="pic1" src="fulltitle.png">');
     },
     function () {
       $(".picture").find(".pic1").last().remove();
